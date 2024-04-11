@@ -43,7 +43,7 @@ const currencies = Object.values(Object.values(Object.values(data[0].currencies)
 const money = Object.values(currencies[0])
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-gray-900 to-blue-200 text-gray-800 flex flex-col items-center justify-center pt-2">
+    <div className="min-h-screen w-full bg-gradient-to-br from-gray-500 to-blue-300 text-gray-800 flex flex-col items-center justify-center pt-2">
     <div className="bg-gray-200 py-4 px-6 flex flex-col items-center md:flex-row md:justify-between shadow-md shadow-blue-400">
       <img src={flag} alt={`Flag of ${name}`} className="mx-auto mb-4 rounded-lg md:mx-0 md:w-1/2" />
       <img src={emblem} alt={`Emblem of ${name}`} className="mx-auto mb-4 rounded-lg md:mx-0 md:w-1/3" />

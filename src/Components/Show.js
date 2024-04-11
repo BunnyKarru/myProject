@@ -29,8 +29,8 @@ function Show() {
 
 
     return (
-        <div className='flex flex-col sm:flex-row h-screen p-3 justify-evenly bg-gradient-to-br from-black to-blue-900'>
-  <div className='flex flex-col sm:flex-row gap-y-4 py-3 px-3 justify-evenly overflow-y-auto'>
+      <div className='flex flex-col sm:flex-row flex-wrap h-screen p-3 justify-evenly bg-gradient-to-br from-black to-blue-900'>
+  <div className='flex flex-col sm:flex-row gap-y-4 py-3 px-3 justify-evenly overflow-y-auto sm:justify-center'>
     {countryData.map((country) => (
       country.map((harin) => (
         <React.Fragment key={harin.name.common}>
@@ -49,6 +49,7 @@ function Show() {
     ))}
   </div>
 </div>
+
 
     
     );
