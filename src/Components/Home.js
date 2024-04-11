@@ -1,8 +1,10 @@
 import React from 'react'
-
+import bgimage from '../background.jpeg'
 function Home() {
   return (
-    <div>Homhfubuse</div>
+    <div>
+         <img src={bgimage} alt='Home'/>
+    </div>
   )
 }
 

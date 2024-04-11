@@ -9,6 +9,9 @@ import {Provider} from 'react-redux'
 import { RouterProvider,createBrowserRouter } from 'react-router-dom';
 import Home from './Components/Home';
 import Show from './Components/Show';
+import Country from './Components/Country';
+import NoResultsFound from './Components/NoResultsFound';
+import AboutUs from './Components/AboutUs';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +25,18 @@ const router = createBrowserRouter([
         path: "/countries",
         element: <Show/>,
       },
+      {
+        path: "/country",
+        element:<Country/>
+      },
+      {
+        path:"/notFound",
+        element:<NoResultsFound/>
+      },
+      {
+        path:"/about",
+        element:<AboutUs/>
+      }
     ],
   },
 ])
