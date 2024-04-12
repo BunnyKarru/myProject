@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/BunnyKarru/myProject.git/static/css/main.a5201dfb.css",
+    "main.js": "/BunnyKarru/myProject.git/static/js/main.3251cb6d.js",
+    "static/js/453.3beb59b5.chunk.js": "/BunnyKarru/myProject.git/static/js/453.3beb59b5.chunk.js",
+    "static/media/background.jpeg": "/BunnyKarru/myProject.git/static/media/background.cce85a831840eb933e44.jpeg",
+    "static/media/aditya.jpg": "/BunnyKarru/myProject.git/static/media/aditya.75548193cbd3010ce428.jpg",
+    "static/media/harin.jpg": "/BunnyKarru/myProject.git/static/media/harin.163537b320d5fe7adf09.jpg",
+    "static/media/Travelore_transparent.png": "/BunnyKarru/myProject.git/static/media/Travelore_transparent.dafcb002a644a2d03d79.png",
+    "static/media/logo.svg": "/BunnyKarru/myProject.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/BunnyKarru/myProject.git/index.html",
+    "main.a5201dfb.css.map": "/BunnyKarru/myProject.git/static/css/main.a5201dfb.css.map",
+    "main.3251cb6d.js.map": "/BunnyKarru/myProject.git/static/js/main.3251cb6d.js.map",
+    "453.3beb59b5.chunk.js.map": "/BunnyKarru/myProject.git/static/js/453.3beb59b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5201dfb.css",
+    "static/js/main.3251cb6d.js"
+  ]
+}
